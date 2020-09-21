@@ -1,0 +1,27 @@
+R image analysis cookbook
+
+R packages for image analysis
+
+representation of images in R
+
+segmentation using k-means (colour and b&w)
+
+FRAP
+
+metadata
+
+scale bars
+
+morphometric data
+
+symmetry
+
+video
+
+Ca imaging - waterfall plots, synchronicity
+
+Keras
+
+pattern matching / measurement offsets
+
+
