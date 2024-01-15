@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  #cover-image: cover.png
+  title: "R Image Analysis Cookbook"
+  author: "Matt Wayland"
+  date: "1/15/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - pca.qmd
+    - bilateral-asymmetry.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
