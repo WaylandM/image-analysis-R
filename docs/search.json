@@ -14,9 +14,30 @@
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
+    "objectID": "image-metadata.html",
+    "href": "image-metadata.html",
+    "title": "3  Image Metadata",
+    "section": "",
+    "text": "See Oleś (2023)\n\n\n\n\nOleś, Andrzej. 2023. RBioFormats: R Interface to Bio-Formats. https://doi.org/10.18129/B9.bioc.RBioFormats."
+  },
+  {
+    "objectID": "pca.html",
+    "href": "pca.html",
+    "title": "5  Principal Component Analysis of Morphometric Data",
+    "section": "",
+    "text": "See Manly (1994)\n\n\n\n\nManly, Bryan F. J. 1994. Multivariate Statistical Methods: A Primer. 2nd ed. London: Chapman; Hall."
+  },
+  {
+    "objectID": "bilateral-asymmetry.html",
+    "href": "bilateral-asymmetry.html",
+    "title": "6  Bilateral Asymmetry",
+    "section": "",
+    "text": "See Wayland and Chubb (2016)\n\n\n\n\nWayland, T. Matthew, and C. James Chubb. 2016. “A New r Package and Web Application for Detecting Bilateral Asymmetry in Parasitic Infections.” Folia Parasitologica 63 (1). https://doi.org/10.14411/fp.2016.039."
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "4  Summary",
+    "title": "7  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   },
@@ -25,6 +46,6 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nManly, Bryan F. J. 1994. Multivariate Statistical Methods: A\nPrimer. 2nd ed. London: Chapman; Hall.\n\n\nOleś, Andrzej. 2023. RBioFormats: R Interface to Bio-Formats.\nhttps://doi.org/10.18129/B9.bioc.RBioFormats.\n\n\nWayland, T. Matthew, and C. James Chubb. 2016. “A New r Package\nand Web Application for Detecting Bilateral Asymmetry in Parasitic\nInfections.” Folia Parasitologica 63 (1). https://doi.org/10.14411/fp.2016.039."
   }
 ]
