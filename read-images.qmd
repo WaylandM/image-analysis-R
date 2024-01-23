@@ -1,0 +1,27 @@
+# Read Images
+
+
+```{r}
+library(EBImage)
+library(RBioFormats)
+```
+
+```{r}
+img <- read.image("data/30x_DM123_1um_beads_FOV180_ROI090.oir")
+dim(img)
+colorMode(img)
+ch1 <- img[,,1,]
+ch2 <- img[,,2,]
+ch3 <- img[,,3,]
+
+dim(ch1)
+dim(ch2)
+dim(ch3)
+
+ch1max <- apply(ch1,c(1,2),max)
+dim(ch1max)
+```
+
+```{r}
+display(img)
+```

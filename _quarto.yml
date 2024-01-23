@@ -11,7 +11,7 @@ book:
     - index.qmd
     - intro.qmd
     - part: basics.qmd
-    - packages.qmd
+    - read-images.qmd
     - image-metadata.qmd
     - part: advanced.qmd
     - frap.qmd

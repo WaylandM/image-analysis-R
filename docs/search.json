@@ -14,6 +14,13 @@
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
+    "objectID": "read-images.html",
+    "href": "read-images.html",
+    "title": "2  Read Images",
+    "section": "",
+    "text": "library(EBImage)\nlibrary(RBioFormats)\n\nBioFormats library version 6.12.0\n\n\n\nimg &lt;- read.image(\"data/30x_DM123_1um_beads_FOV180_ROI090.oir\")\ndim(img)\n\n[1] 257 160   3   6\n\ncolorMode(img)\n\n[1] 2\n\nch1 &lt;- img[,,1,]\nch2 &lt;- img[,,2,]\nch3 &lt;- img[,,3,]\n\ndim(ch1)\n\n[1] 257 160   6\n\ndim(ch2)\n\n[1] 257 160   6\n\ndim(ch3)\n\n[1] 257 160   6\n\nch1max &lt;- apply(ch1,c(1,2),max)\ndim(ch1max)\n\n[1] 257 160\n\n\n\ndisplay(img)\n\nOnly the first frame of the image stack is displayed.\nTo display all frames use 'all = TRUE'."
+  },
+  {
     "objectID": "image-metadata.html",
     "href": "image-metadata.html",
     "title": "3  Image Metadata",
